@@ -3,33 +3,45 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Login</title>
+    <title>Register</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='index.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='register.css'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap" rel="stylesheet">
-    <link rel="icon" href="iniciar-sesion.png">
-    
+    <link rel="icon" href="verify.png">
+
 </head>
 <body>
     <form>
     <div class="caja-login">
-        <h1>Login</h1>
+        <h1>Register</h1>
+        <p>Name and Surname</p>
+        <div class="contorno">
+        <input type="text">
+        </div>
         <p>Email</p>
         <div class="contorno">
         <input type="email">
+        </div>
+        <p>Username</p>
+        <div class="contorno">
+        <input type="text">
         </div>
         <p>Password</p>
         <div class="contorno">
         <input type="password">
         </div>
-        <button class="boton-login">Login</button>
-        <p class="sign-up">Don't have an account yet? 
-            <a href="register.html"><u><b>Register</b></u></p></a>
+        <p>Confirm Password</p>
+        <div class="contorno">
+        <input type="password">
+        </div>
+        <button class="boton-login">Register</button>
+        <p class="sign-up">Do you have an account? 
+            <a href="index.html"><u><b>Login</b></u></p></a>
         <button class="boton"> <img src="google.png" alt="">
             Sign in with Google</button>
         <button class="boton"> <img src="facebook.png" alt="">
@@ -40,4 +52,3 @@
 </form>
 </body>
 </html>
-
