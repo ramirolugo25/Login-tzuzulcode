@@ -25,6 +25,15 @@ p{
     color: white;
     font-family: 'Source Code Pro', monospace;
 }
+label{
+    display: block;
+    text-align: left;
+    margin-left: 60px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+}
 a{
     text-decoration: none;
     color: white;
@@ -37,7 +46,7 @@ a{
     background-color: white;
     color: black;
     border-radius: 30px;
-    border: 0px solid;
+    border: 1px solid rgb(162, 0, 255);
 }
 input{
     
