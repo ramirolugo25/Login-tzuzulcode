@@ -38,6 +38,9 @@ a{
     text-decoration: none;
     color: white;
 }
+.register:hover{
+    background-color: rgb(163, 0, 155);
+}
 .contorno{
     display: block;
     margin: 0 auto;
@@ -56,6 +59,12 @@ input{
     color: black;
     border: 0px solid;
     margin-top: 4px;
+}
+.forget-password{
+    display: block;
+    margin-top: 5px;
+    margin-right: 80px;
+    text-decoration: none;
 }
 .boton-login{
     margin-top: 20px ;
