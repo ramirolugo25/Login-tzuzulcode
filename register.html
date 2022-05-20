@@ -21,27 +21,31 @@
         <h1>Register</h1>
         <label for="name-surname">Name and Surname</label>
         <div class="contorno">
-        <input type="text" name="name-surname" id="name-surname" autofocus>
+        <input type="text" name="name-surname" id="name-surname" autofocus required>
         </div>
         <label for="email">Email</label>
         <div class="contorno">
-        <input type="email" name="email" id="email">
+        <input type="email" name="email" id="email" required>
         </div>
         <label for="username">Username</label>
         <div class="contorno">
-        <input type="text" name="username" id="username">
+        <input type="text" name="username" id="username" required>
         </div>
         <label for="password">Password</label>
         <div class="contorno">
-        <input type="password" name="password" id="password">
+        <input type="password" name="password" id="password" required>
         </div>
         <label for="confirm-password">Confirm Password</label>
         <div class="contorno">
-        <input type="password" name="confirm-password" id="confirm-password">
+        <input type="password" name="confirm-password" id="confirm-password" required>
+        </div>
+        <div class="caja-check">
+            <input type="checkbox" id="checkbox" value="terminos-condiciones" name="terminos-condiciones" required>
+            <p>I agree to <a href=""><u>Terms and Conditions</u></a></p>
         </div>
         <button class="boton-login">Register</button>
         <p class="sign-up">Do you have an account? 
-            <a href="index.html"><u><b>Login</b></u></p></a>
+            <a href="index.html" class="login"><u><b>Login</b></u></p></a>
         <button class="boton"> <img src="google.png" alt="">
             Sign in with Google</button>
         <button class="boton"> <img src="facebook.png" alt="">
